@@ -2,7 +2,8 @@ public class MaintenanceRequestHelper {
 
     public static void updateWorkOrders(Map<Id, Case>  cases){
     	
-    	// At this point, consider using a Test Data Factory class or create all the data prior to invoking this method.
+    	// When testing this method, consider using a Test Data Factory 
+        // class or create all the data 
     	
     	// Create a list of Cases 
         List<Case> maintenance_routineList = new List<Case>();
