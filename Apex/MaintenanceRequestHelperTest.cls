@@ -41,7 +41,7 @@ private class MaintenanceRequestHelperTest {
     	
     	// Principle #2: Test the class for as much user Profiles as necessary. 
     	//               Here we're going to use an Standard User. 
-    	//               Also, please consider using a Custom Setting or Global Static variable to store the profile name.
+    	//               Also, please consider using some Global Static variables to store the test user info.
     	
     	// This code runs as the system user
         Profile p = [SELECT Id FROM Profile WHERE Name='Standard User']; 
